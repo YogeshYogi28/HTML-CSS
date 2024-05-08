@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nested Layouts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+      .img{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25px;
+        margin-right: 20px;
+        margin-top: 20px;
+      }
+      .name{
+        display: inline-block;
+        font-family: Arial;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 10px;
+      }
+
+      .hor1,.hor2{
+        display: inline-block;
+        vertical-align: top;
+      }
+      .hor3{
+        display: inline-block;
+        margin-left: 100px;
+       
+         
+      }
+      p{
+        margin-top: 0px;
+        margin-bottom: 10px;
+      }
+      .ani,.pop{
+        color: gray;
+        font-family: arial;
+      }
+      button{
+        background-color: rgb(67, 126, 186);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+    
+      
+    </style>
+  </head>
+  <body>
+      <div class="hor1">
+        <img class="img" src="images/cat.jpg">
+      </div>
+      <div class="hor2">
+        <div><p class="name">oliver</p></div>
+        <div><p class="ani">the cat</p></div>
+        <div><p class="pop">Popular</p></div>
+      </div>
+      <div class="hor3">
+        <button>Follow</button>
+      </div>
+  </body>
+</html>

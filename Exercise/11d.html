@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS GRID</title>
+    <style>
+      .img{
+        width:200px;
+        height:300px;
+        align-items: center;
+      }
+  
+      .name{
+        font-family: Arial;
+        font-weight: bold;
+        font-size: large;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+      }
+      .profpic{
+        /* display: inline-block; */
+        width:50px;
+        height:50px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25px;
+        vertical-align: top;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+      .mf{
+        display: inline-block;
+        color:gray;
+        font-family: Arial;
+      }
+      button{
+        display: block;
+        background-color: rgb(26, 162, 226);
+        color:white;
+        font-weight: bold;
+        border:none;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 8px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+      }
+      .div1,.div2,.div3{
+       /* display: inline-block; */
+       width:200px;
+       height:450px;
+       box-shadow: 0px 0px 8px rgb(26, 25, 25);
+       margin-top: 10px;
+       margin-left: 10px;
+       
+      }
+      .cssgrid{
+        column-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cssgrid" style="display: grid; grid-template-columns: 200px 200px 200px;">
+      <div class="div1" >
+        <div ><img class="img" src="images/cat.jpg"></div>
+        <div>
+          <p class="name">Oliver</p>
+          <img class="profpic" src="images/cat.jpg">
+          <p class="mf">2 mutual friends</p>
+          <button>Add Friend</button>
+        </div>
+        </div>
+
+        <div class="div2" >
+          <div ><img class="img" src="images/cat2.jpg"></div>
+          <div>
+            <p class="name">Mimi</p>
+            <img class="profpic" src="images/cat2.jpg">
+            <p class="mf">2 mutual friends</p>
+            <button>Add Friend</button>
+          </div>
+        </div>
+
+        <div class="div3" >
+          <div ><img class="img" src="images/dog.jpg"></div>
+          <div>
+            <p class="name">Rex</p>
+            <img class="profpic" src="images/dog.jpg">
+            <p class="mf">2 mutual friends</p>
+            <button>Add Friend</button>
+          </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

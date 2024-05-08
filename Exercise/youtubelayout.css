@@ -1,0 +1,31 @@
+.img{
+  width:200px;
+}
+.des{
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.auth,.views{
+  margin-left: 10px;
+  color:rgb(97, 96, 96);
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+ .divi,.divis,.divisi{
+  width:600px;
+} 
+.div1{
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.div2{
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
