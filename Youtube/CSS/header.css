@@ -1,0 +1,143 @@
+.menu{
+  height:55px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(192, 189, 189);
+  z-index:1
+}
+.left-menu{
+  display: flex;
+  align-items: center;
+}
+.mid-menu{
+  display: flex;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 550px;
+  align-items: center;
+}
+.right-menu{
+  
+  width:250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.ricon1{
+  height: 24px;
+}
+.ricon2{
+  height: 24px;
+}
+.ricon3{
+  height: 24px;
+}
+.channel1{
+  height:35px;
+  border-radius: 17.5px;
+}
+.searchbar{
+  flex: 1;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(191, 190, 190);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+  width: 0px;
+  
+}
+.searchbar::placeholder{
+  font-family: Roboto;
+  font-size: 20px;
+}
+.icons{
+  height: 24px;
+  margin-left: 24px;
+}
+.youtube{
+  height: 20px;
+  margin-left: 20px;
+}
+.searchbtn{
+  height: 40px;
+  width: 66px;
+  background-color: rgb(242, 242, 242);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbtn div,
+.micbtn div{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.searchbtn:hover div,
+.micbtn:hover div{
+  opacity: 1;
+}
+.searchicon{
+  height:25px;
+}
+.micbtn{
+  height:40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(238, 238, 238);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mic{
+  height: 24px;
+}
+.not-icon{
+  position: relative;
+}
+.count{
+  position: absolute;
+  top:-5px;
+  right: -2px;
+  background-color: red;
+  color: white;
+  font-family: roboto;
+  font-size: 11px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+
